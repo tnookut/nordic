@@ -1,0 +1,7 @@
+&i2c0 {
+    ppg: ppg@64{
+        compatible = "i2c-device";
+        status = "okay";
+        reg = < 0x64 >;
+    };
+};
